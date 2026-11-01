@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator Kartu Motivasi - AL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card-container" id="quoteCard">
+    <div class="badge" id="categoryBadge">Inspirasi</div>
+    <p class="quote-text" id="quoteText">"Setiap baris kode yang kamu tulis adalah satu langkah lebih dekat menuju impianmu."</p>
+    <p class="author" id="quoteAuthor">- AL Code Project</p>
+
+    <div class="action-buttons">
+      <button onclick="generateQuote()" class="btn btn-primary">🎲 Acak Kata</button>
+      <button onclick="changeTheme()" class="btn btn-secondary">🎨 Ganti Warna</button>
+      <button onclick="copyQuote()" class="btn btn-outline" id="copyBtn">📋 Salin</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
