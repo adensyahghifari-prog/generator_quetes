@@ -7,7 +7,7 @@
 
 body {
   /* Mengganti warna dasar dengan gambar background dan efek gelap transparan */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("background.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/background.jpeg");
   background-size: cover;          /* Agar gambar menutupi seluruh layar secara pas */
   background-position: center;     /* Posisi gambar di tengah */
   background-repeat: no-repeat;    /* Agar gambar tidak berulang */
@@ -31,7 +31,7 @@ body {
   width: 100%;
   text-align: center;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease;
+  transition: background 0.5s ease, transform 0.3s ease;
 }
 
 .card-container:hover {

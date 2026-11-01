@@ -21,7 +21,9 @@ const themes = [
   "linear-gradient(135deg, #0f172a, #1e1b4b)",
   "linear-gradient(135deg, #064e3b, #022c22)",
   "linear-gradient(135deg, #881337, #4c0519)",
-  "linear-gradient(135deg, #581c87, #3b0764)"
+  "linear-gradient(135deg, #581c87, #3b0764)",
+  "linear-gradient(135deg, #6b7476, #a295ad)",
+  "linear-gradient(135deg, #9f6ec5, #1b161f)"
 ];
 
 let themeIndex = 0;
@@ -37,7 +39,7 @@ function generateQuote() {
 
 function changeTheme() {
   themeIndex = (themeIndex + 1) % themes.length;
-  document.body.style.background = themes[themeIndex];
+ document.getElementById('quoteCard').style.background = themes[themeIndex];
 }
 
 function copyQuote() {
